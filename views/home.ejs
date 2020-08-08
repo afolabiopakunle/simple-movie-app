@@ -1,0 +1,9 @@
+<h2>Find Movies</h2>
+<% movies.Search.forEach(movie => { %>
+<li><%= movie.Title %></li>
+
+<% }) %>
+<form action="/movieRequest" method="post">
+  <input type="text" name="title" id="" />
+  <button type="submit">Search</button>
+</form>

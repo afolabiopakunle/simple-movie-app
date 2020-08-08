@@ -1,0 +1,24 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "Testing APIs with my knowlegde",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afolabiopakunle/simple-movie-app.git"
+  },
+  "author": "Afolabi Opakunle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afolabiopakunle/simple-movie-app/issues"
+  },
+  "homepage": "https://github.com/afolabiopakunle/simple-movie-app#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
+}
