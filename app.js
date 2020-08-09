@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.get('/', (req, res) => {
+app.get('/results', (req, res) => {
   axios
     .get('https://www.omdbapi.com/', {
       params: {
